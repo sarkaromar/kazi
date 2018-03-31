@@ -35,9 +35,27 @@
 // 	border: 0;
 // 	border-top: 25px;
 // }
-
+.btn{
+	border-radius: 0px !important;
+}
 .input-group .form-control {
     border: 1px solid #fff;
+}
+
+.gallery-wrapper{
+	a{
+		display: inline-block;
+		img{
+			width: 190px;
+			padding: 5px;
+			float: left;
+		}
+	}
+}
+h4.update-title {
+    color: #fff;
+    padding: 12px 20px;
+    text-transform: uppercase;
 }
 
 header{
